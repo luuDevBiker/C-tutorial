@@ -1,0 +1,58 @@
+I: biến là gì ?
+
+--> Giá trị của biến có thể thay đổi bất cứ lúc nào trong suốt quá trình mà chương trình chạy.
+Biến được dùng để lưu trữ dữ liệu mà cần được thay đổi trong quá trình chương trình thực hiện.
+
+--> cách khai báo một biến 
+
+<kiểu dữ liệu> <tên biến> hoặc <kiểu dữ liệu> <tên biến> = <giá trị>
+
+int a ;
+int b = 10;
+
+II: hằng là gì ?
+
+--> Là một giá trị hằng số không cho phép thay đổi trong quá trình chạy chương trình.
+vậy, chúng ta dùng hằng khi không muốn giá trị bị thay đổi trong suốt thời gian chương trình chạy.
+
+--> cách khai báo hằng
+
+const <kiểu dữ liệu> <tên biến> = <giá trị>
+const pi = 3.14;
+
+	Type		Kích thước			Phạm vi giá trị
+
+char			1 byte				-128 to 127 hoặc 0 to 255
+unsigned char		1 byte				0 tới 255
+signed char		1 byte				-128 tới 127
+int			2 or 4 bytes			-32,768 tới 32,767 hoặc -2,147,483,648 tới 2,147,483,647
+unsigned int		2 or 4 bytes			0 tới 65,535 hoặc 0 tới 4,294,967,295
+short			2 bytes				-32,768 tới 32,767
+unsigned short		2 bytes				0 tới 65,535
+long			8 bytes				-9223372036854775808 tới 9223372036854775807
+unsigned long		8 bytes				0 tới 18446744073709551615
+
+Kiểu số thực
+
+	Type		Kích thước			Phạm vi giá trị	Độ chính xác
+
+float			4 byte				1.2E-38 to 3.4E+38	6 chữ số thập phân
+double			8 byte				2.3E-308 to 1.7E+308	15 chữ số thập phân
+long 			double				10 byte	3.4E-4932 to 1.1E+4932	19 chữ số thập phân
+	
+Kiểu ký tự
+
+	Type		Kích thước			Phạm vi giá trị
+char or signed char	1 byte				-128 to 127
+unsigned char		1 byte				0 to 255
+
+
+Kiểu void
+
+Kiểu void có nghĩa là “không có giá trị”, 
+nó không được dùng trong khai báo biến thông thường
+mà được sử dụng để chỉ định kiểu của các hàm không có giá trị trả về.
+Chúng ta sẽ hiểu rõ hơn về kiểu dữ liệu này trong tương lai ở các bài học về hàm, con trỏ,…
+
+
+
